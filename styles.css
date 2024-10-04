@@ -1,6 +1,8 @@
 a {
    color: black; 
    text-decoration: none;
+   margin: 50px 50px;
+    width: 250px;
 }
 
 a:hover{
@@ -23,15 +25,19 @@ h1 {
   font-family: 'Montserrat', sans-serif; 
   font-size: 3.5em;
   text-align: center;
+  margin: 20px 50px;
 }
 p{
     font-family: 'Manrope';
     font-size: 1.1em;
-    text-align: center;
+    text-align: justify;
 }
 li {
     font-size: 1em;
     font-family: 'Manrope';
+    margin: 20px 50px;
+    width: 350px;
+    text-align: center;
 }
 
 body {
@@ -82,4 +88,22 @@ h2{
   background-size: cover;
   
   background-position: center;
+}
+
+* {
+    margin: 0;
+  }
+
+  header , footer{
+    padding: 20px 50px;
+  }
+
+  section{
+    padding: 80px;
+  }
+
+.reseau{
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: center;
 }
